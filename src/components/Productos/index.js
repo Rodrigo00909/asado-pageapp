@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     ProductosContainer, 
-    ProductosH, 
+    ProductosH,
+    ProductosP, 
     ProductosWrapper, 
     ProductoCard, 
     ProductoImg, 
@@ -12,10 +13,11 @@ import {
     ProductoBoton
 } from './ProductosElem';
 
-const Productos = ({header, data}) => {
+const Productos = ({header, data, parrafo}) => {
     return (
         <ProductosContainer>
             <ProductosH>{header}</ProductosH>
+            <ProductosP>{parrafo}</ProductosP>
             <ProductosWrapper>
                 {data.map( (producto, i) => {
                     return (

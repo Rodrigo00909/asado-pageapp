@@ -3,8 +3,9 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import { GlobalStyle } from './GlobalStyles';
 import Hero from './components/Hero';
 import Productos from './components/Productos';
-import {productosData} from './components/Productos/data';
+import {productosData, productosDataDos} from './components/Productos/data';
 import Promo from './components/Promo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Hero />
       <Productos header="Elige tu Café de hoy" data={productosData} />
       <Promo />
+      <Productos header="Para acompañar al Café:" parrafo="Medialunas especiales de la Casa" data={productosDataDos} />
+      <Footer />
     </Router>
   );
 }

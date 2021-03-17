@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProductosContainer = styled.div`
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     padding: 5rem calc((100vw - 1300px) / 2);
     background-color: #150f0f;
@@ -31,12 +31,18 @@ export const ProductoImg = styled.img`
 export const ProductosH = styled.h1`
     font-size: clamp(2rem, 2.5vw, 3rem);
     text-align: center;
-    margin-bottom: 5rem;
 `;
 
 export const ProductoTitulo = styled.h2`
     font-weight: 400;
     font-size: 1.5rem;
+`;
+
+export const ProductosP = styled.h3`
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
 `;
 
 export const ProductoInfo = styled.div`
