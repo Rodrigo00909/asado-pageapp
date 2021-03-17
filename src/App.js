@@ -4,6 +4,7 @@ import { GlobalStyle } from './GlobalStyles';
 import Hero from './components/Hero';
 import Productos from './components/Productos';
 import {productosData} from './components/Productos/data';
+import Promo from './components/Promo';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Productos header="Elige tu Café de hoy" data={productosData} />
+      <Promo />
     </Router>
   );
 }
