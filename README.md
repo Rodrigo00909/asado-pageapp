@@ -1,6 +1,3 @@
-
-Link: https://torresm-cafeapp.netlify.app/
-
 <h1 align="center">Cafe App</h1>
 
 <h2 align="center">
