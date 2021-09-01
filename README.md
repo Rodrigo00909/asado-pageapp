@@ -1,14 +1,47 @@
-# Do you want see this project?
+
 Link: https://torresm-cafeapp.netlify.app/
 
+<h1 align="center">Cafe App</h1>
 
-## Getting Started with Create React App
+<h2 align="center">
+Página web estática, para prácticar maquetado con React JS.
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+Se realizó con un modelo .png descargado de pinterest, y lo maqueté con styled-components, de reactjs.
+</h4>
 
-## Available Scripts
+Link: https://torresm-cafeapp.netlify.app/
 
-In the project directory, you can run:
+### Algunas fotos del proyecto
+## Cabe resaltar que el proyecto es totalmente responsive, las imágenes están cortadas en el editor que usé. Se puede verificar en el link del proyecto.
+
+<img align="center" justify="center" src="https://i.postimg.cc/g08rfbYt/3.png" />
+
+<br>
+
+<img align="center" justify="center" src="https://i.postimg.cc/YSKCND16/4.png" />
+
+<br>
+
+<img align="center" justify="center" src="https://i.postimg.cc/tRMytmbs/5.png" />
+
+## Realizado hasta ahora
+
+- [x] React App: Configuraciones básicas
+- [x] Estructura HTML
+- [x] React: Hooks
+- [x] React: Styled-components
+- [x] React: Menú desplegable
+
+## Contactame en:
+
+<a target="_blank" href="https://www.linkedin.com/in/torresmessenzani/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+
+<br>
+
+Para correr el proyecto:
 
 ### `npm start`
 
