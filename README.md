@@ -11,7 +11,7 @@ Se realizó con un modelo .png descargado de pinterest, y lo maqueté con styled
 Link: https://torresm-cafeapp.netlify.app/
 
 ### Algunas fotos del proyecto
-## Cabe resaltar que el proyecto es totalmente responsive, las imágenes están cortadas en el editor que usé. Se puede verificar en el link del proyecto.
+<p>Cabe resaltar que el proyecto es totalmente responsive, las imágenes están cortadas en el editor que usé. Se puede verificar en el link del proyecto.</p>
 
 <img align="center" justify="center" src="https://i.postimg.cc/g08rfbYt/3.png" />
 
